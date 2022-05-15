@@ -59,7 +59,7 @@
     left: 48.7%;
     height: 880px;
     grid-area: menu;
-    background-color: rgb(182, 109, 14);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 20%, rgba(9,9,121,1) 65%);
     color: white;
     width: 52px;
     display: flex;
