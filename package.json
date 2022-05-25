@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/styleScss.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Fondarts/porfolioweb.git"
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"
   },
   "author": "",
   "license": "ISC",
