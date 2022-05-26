@@ -60,7 +60,7 @@ background-color: black;
     height: 96.4vh;
 }
 
-/* .menu {
+.menu {
     position: absolute;
     top: 0;
     left: 48.7%;
@@ -78,7 +78,7 @@ background-color: black;
     overflow: hidden;
     white-space: nowrap;
 }
-
+/* 
 .menu:hover {
     width: 180px;
 }
