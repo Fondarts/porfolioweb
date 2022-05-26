@@ -1,4 +1,100 @@
 h2 {
-background-color: black;
+background-color: rgb(185, 30, 30);
 
+}
+:root{
+--bs-offcanvas-width: 1000vw !important
+}
+
+h5 {
+color: blue;
+}
+
+.canvasWidth {
+width: 3000px ;
+
+}
+
+.modal-body {
+background-image: url(../img/islaEdicion.png);
+
+}
+
+.modal {
+    background-image: url(../img/islaEdicion.png);
+
+
+}
+
+.contacto {
+    background-color: black;
+
+    h3 {
+        color: yellow;
+        font-weight: bold;
+
+    }
+
+    
+
+}
+
+.bodyprincipal{
+
+    .divPrincipal {
+        background-color: black;
+
+        .menu {
+            position: absolute;
+            top: 0;
+            left: 48.7%;
+            height: 100vh;    
+            grid-area: menu;
+            background: rgb(182, 109, 14) ;
+            color: white;
+            width: 52px;
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            transition: 1s;
+            overflow: hidden;
+            white-space: nowrap;
+
+        }
+        .menu:hover {
+       
+            width: 180px;
+            }
+
+
+
+                .icon {
+                    width: 30px;
+                    height: 30px;
+
+                    
+                }
+
+                .icon:hover {
+                    filter: invert(100%);
+                }
+
+
+
+
+
+
+
+    }
+
+
+    footer {
+        grid-area: footer;
+        position: sticky;
+        background-color: rgb(182, 109, 14);
+        /* height: 25px; */
+        
+    }
 }

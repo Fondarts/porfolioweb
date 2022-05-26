@@ -1,4 +1,85 @@
 h2 {
+  background-color: #b91e1e;
+}
+
+:root {
+  --bs-offcanvas-width: 1000vw !important
+;
+}
+
+h5 {
+  color: blue;
+}
+
+.canvasWidth {
+  width: 3000px;
+}
+
+.modal-body {
+  background-image: url(../img/islaEdicion.png);
+}
+
+.modal {
+  background-image: url(../img/islaEdicion.png);
+}
+
+.contacto {
   background-color: black;
+}
+
+.contacto h3 {
+  color: yellow;
+  font-weight: bold;
+}
+
+.bodyprincipal .divPrincipal {
+  background-color: black;
+}
+
+.bodyprincipal .divPrincipal .menu {
+  position: absolute;
+  top: 0;
+  left: 48.7%;
+  height: 100vh;
+  grid-area: menu;
+  background: #b66d0e;
+  color: white;
+  width: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.bodyprincipal .divPrincipal .menu:hover {
+  width: 180px;
+}
+
+.bodyprincipal .divPrincipal .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.bodyprincipal .divPrincipal .icon:hover {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.bodyprincipal footer {
+  grid-area: footer;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #b66d0e;
+  /* height: 25px; */
 }
 /*# sourceMappingURL=style.css.map */

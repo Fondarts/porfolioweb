@@ -60,7 +60,7 @@ background-color: black;
     height: 96.4vh;
 }
 
-.menu {
+/* .menu {
     position: absolute;
     top: 0;
     left: 48.7%;
@@ -80,8 +80,6 @@ background-color: black;
 }
 
 .menu:hover {
-    /* position:static ; */
-    /* -webkit-transform: scalex(1.5); */
     width: 180px;
 }
 
@@ -99,9 +97,8 @@ footer {
     grid-area: footer;
     position: sticky;
     background-color: rgb(182, 109, 14);
-    /* height: 25px; */
     
-}
+} */
 
 
 
@@ -460,4 +457,12 @@ text-decoration: underline;
 
 ul {
     list-style-type: none;
+  }
+
+
+
+
+
+  .modal-body {
+    background-image: url(../img/islaEdicion.png);
   }
