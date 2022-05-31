@@ -2,13 +2,18 @@ h2 {
   background-color: #b91e1e;
 }
 
+h3 {
+  color: white;
+  text-shadow: 6px white;
+}
+
 :root {
   --bs-offcanvas-width: 1000vw !important
 ;
 }
 
 h5 {
-  color: blue;
+  color: #00ffea;
 }
 
 .canvasWidth {
