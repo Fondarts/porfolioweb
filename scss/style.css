@@ -1,3 +1,8 @@
+h1, h5:hover {
+  color: green;
+  font-size: 3rem;
+}
+
 h2 {
   background-color: #b91e1e;
 }
@@ -5,6 +10,15 @@ h2 {
 h3 {
   color: #f73030;
   text-shadow: 6px white;
+}
+
+h5 {
+  background-color: #002280;
+  font-weight: bold;
+}
+
+h5:hover {
+  font-weight: bold;
 }
 
 :root {

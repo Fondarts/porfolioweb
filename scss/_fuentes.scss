@@ -1,3 +1,15 @@
+$estilos: (
+    colorh5: white,
+    peso: bold,
+    Tf: 1rem,
+    fondo:rgb(0, 34, 128)
+);
+
+h1 {
+    color: green;
+    font-size: 3rem;
+}
+
 h2 {
 background-color: rgb(185, 30, 30);
 }
@@ -5,4 +17,19 @@ background-color: rgb(185, 30, 30);
 h3 {
     color: rgb(247, 48, 48);
     text-shadow: 6px white;
+    
     }
+
+
+h5 {
+background-color: map-get($estilos, fondo) ;
+font-weight: map-get($estilos, peso);
+
+
+}
+
+h5:hover {
+@extend h1;
+font-weight: bold;
+
+}
