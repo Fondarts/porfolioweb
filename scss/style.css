@@ -1,33 +1,28 @@
-h1, h5:hover {
-  color: green;
-  font-size: 3rem;
-}
-
-h2 {
-  background-color: #b91e1e;
+p {
+  font-weight: lighter;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  color: white;
 }
 
 h3 {
-  color: #f73030;
-  text-shadow: 6px white;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 15px;
+  text-transform: uppercase;
 }
 
-h5 {
-  background-color: #002280;
-  font-weight: bold;
-}
-
-h5:hover {
-  font-weight: bold;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-  --bs-offcanvas-width: 1000vw !important
-;
-}
-
-h5 {
-  color: #00ffea;
+  --bs-offcanvas-width: 1000vw;
 }
 
 .canvasWidth {
@@ -38,23 +33,14 @@ h5 {
   background-image: url(../img/islaEdicion.png);
 }
 
-.modal {
-  background-image: url(../img/islaEdicion.png);
-}
-
 .contacto {
   background-color: black;
-}
-
-.contacto h3 {
-  color: yellow;
-  font-weight: bold;
 }
 
 .bodyprincipal .divPrincipal {
   background-color: black;
 }
-
+/*
 .bodyprincipal .divPrincipal .menu {
   position: absolute;
   top: 0;
@@ -62,7 +48,7 @@ h5 {
   height: 100vh;
   grid-area: menu;
   background: #b66d0e;
-  color: white;
+  color: #fa08e6;
   width: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,7 +65,7 @@ h5 {
   overflow: hidden;
   white-space: nowrap;
 }
-
+*/
 .bodyprincipal .divPrincipal .menu:hover {
   width: 180px;
 }
@@ -99,6 +85,10 @@ h5 {
   position: -webkit-sticky;
   position: sticky;
   background-color: #b66d0e;
-  /* height: 25px; */
+}
+
+.bodyprincipal footer .texto {
+  color: black;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

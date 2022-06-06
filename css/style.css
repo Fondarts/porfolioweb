@@ -14,6 +14,29 @@
 /****************************** GRID PRINCIPAL ********************/
 /****************************** DESKTOP VIEW ********************/
 
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 48.7%;
+    height: 100vh;    
+    grid-area: menu;
+    background: rgb(182, 109, 14) ;
+    color: white;
+    width: 52px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: 1s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+
 .divPrincipal {
     display: grid;
     background-color: rgb(0, 0, 0);
@@ -27,7 +50,7 @@
 
 
 .fondo {
-background-color: black;
+    background-color: black;
 
 
 }
@@ -60,55 +83,11 @@ background-color: black;
     height: 96.4vh;
 }
 
-.menu {
-    position: absolute;
-    top: 0;
-    left: 48.7%;
-    height: 100vh;    
-    grid-area: menu;
-    background: rgb(182, 109, 14) ;
-    color: white;
-    width: 52px;
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    transition: 1s;
-    overflow: hidden;
-    white-space: nowrap;
-}
-/* 
-.menu:hover {
-    width: 180px;
-}
-
-.icon {
-    width: 30px;
-    height: 30px;
-}
-
-.icon:hover {
-    filter: invert(100%);
-}
-
-
-footer {
-    grid-area: footer;
-    position: sticky;
-    background-color: rgb(182, 109, 14);
-    
-} */
-
-
-
-
-
 
 
 /****************************** VISTA TABLET *********************************/
 
-@media screen and (min-width:600px) and (max-width:1023px) {
+ @media screen and (min-width:600px) and (max-width:1023px) {
 
 
     .divPrincipal {
@@ -158,32 +137,22 @@ footer {
 
 
 
-
-
-
-
 /**************************** SETEOS GENERALES *******************************/
 
 h3 {
     font-size: 19px;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+
     padding-top: 15px;
     text-transform: uppercase;
 
 }
 
-p {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-}
+
 
 footer p {
-    color: black;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -333,12 +302,6 @@ a:visited {
 
 
 
-
-
-
-
-
-
 /*********************** PORTFOLIO ****************************/
 
 .prueba {
@@ -370,80 +333,25 @@ a:visited {
 
 
 
-
-
-
-
-
 /************************* QUIEN SOY ******************************/
 
-/* .row {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-
-}
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
 
 
-}
 
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
+.imgScale {
     width: 100%;
-
-} */
-
-
-
-.imgScale{
-width: 100%;
-transition: 0.5s;
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);
+    transition: 0.5s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .imgScale:hover {
-	-webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 
 }
 
 
-
-
-
-/************************* CONTACTO ******************************/
-
-/* form {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-
-.botonForm {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    align-items: center;
-}
-
-legend {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.form {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px;
-} */
 
 
 
@@ -451,18 +359,24 @@ legend {
 
 
 .underline:hover {
-text-decoration: underline;
+    text-decoration: underline;
 
 }
 
 ul {
     list-style-type: none;
-  }
+}
 
 
 
+.boxshadow:hover {
+    box-shadow: 7px 7px 15px rgb(104, 104, 104);
+    transition: 0.5s;
 
 
-  .modal-body {
-    background-image: url(../img/islaEdicion.png);
-  }
+}
+
+.colortext {
+    color: black;
+
+}

@@ -17,6 +17,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="scss/style.css">
+
+    <!-- JS -->
+    <script src="js/javascript.js"></script>
+
 </head>
 
 <body class="bodyprincipal">
@@ -30,28 +34,48 @@
         <!-- MENU NAVEGACION -->
 
         <nav class="menu container">
+
+
+
             <div class="pt-3 pb-1">
-                <img src="img/Icons/home.png" alt="home" class="icon">
+                <a data-bs-toggle="modal" data-bs-target="#myModal">
+                <img src="img/Icons/home.png" alt="home" class="icon"></a>
                 <a class="p-2" data-bs-toggle="modal" data-bs-target="#myModal">Inicio</a>
             </div>
 
+
+
             <div class="pt-1 pb-1">
-                <img src="img/Icons/portfolio.png" alt="portfolioicon" class="icon">
-                <a class="p-2" href="pages/portfolio.html" target="iframeb">Portfolio</a>
-            </div>
+                <a href="pages/portfolio.html" target="iframeb"> <img src="img/Icons/portfolio.png" alt="Servicios" class="icon"></a>
+                 <a class="p-2" href="pages/portfolio.html" target="iframeb">Portfolio</a>
+             </div>
+
+
+
+
             <div class="pt-1 pb-1">
-                <img src="img/Icons/services.png" alt="service Icon" class="icon">
+               <a href="pages/servicios.html" target="iframeb"> <img src="img/Icons/services.png" alt="Servicios" class="icon"></a>
                 <a class="p-2" href="pages/servicios.html" target="iframeb">Servicios</a>
             </div>
+
+
             <div class="pt-1 pb-1">
-                <img src="img/Icons/me.png" alt="About me" class="icon">
-                <a class="p-2" href="pages/quien_soy.html" target="iframeb">Quien soy</a>
-            </div>
+                <a href="pages/quien_soy.html" target="iframeb"> <img src="img/Icons/me.png" alt="About me" class="icon"></a>
+                 <a class="p-2" href="pages/quien_soy.html" target="iframeb">Quien soy</a>
+             </div>
+
+
+
             <div class="pt-1 pb-1">
-                <img src="img/Icons/contact.png" alt="contact" class="icon">
+                <a href="pages/contacto.html"target="iframeb"><img src="img/Icons/contact.png" alt="contact" class="icon"></a>
                 <a class="p-2" href="pages/contacto.html" target="iframeb">Contacto</a>
             </div>
         </nav>
+
+
+
+
+
 
         <!-- SECCION IZQUIERDA - PAGINA FIJA -->
 
@@ -62,14 +86,19 @@
 
     <!-- FOOTER -->
 
-            <footer>
-                <div class="sticky-sm-bottom">Todos los derechos reservados</div>
-            </footer>
+    <footer>
+        <div class="sticky-sm-bottom texto" >Todos los derechos reservados</div>
+    </footer>
 
+
+
+
+
+
+  
     <!-- MODAL -->
     <section>
 
-        <!-- Modal -->
         <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
@@ -92,7 +121,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-                                                    src="https://player.vimeo.com/video/462197575?h=31bc860db2&title=0&byline=0&portrait=0"
+                                                    src="https://player.vimeo.com/video/363439915?h=42c8d1ca25&title=0&byline=0&portrait=0"
                                                     style="position:absolute;top:0;left:0;width:100%;height:100%;"
                                                     frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
                                                     allowfullscreen></iframe></div>
@@ -100,7 +129,7 @@
                                         </div>
                                         <div class="carousel-item">
                                             <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-                                                    src="https://player.vimeo.com/video/462197575?h=31bc860db2&title=0&byline=0&portrait=0"
+                                                    src="https://player.vimeo.com/video/240072209?h=336e2ed5af&title=0&byline=0&portrait=0"
                                                     style="position:absolute;top:0;left:0;width:100%;height:100%;"
                                                     frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
                                                     allowfullscreen></iframe></div>
@@ -125,11 +154,12 @@
 
 
                         <div class="row">
-                            <div class="col-2"></div>
-                            <div class="col-8">
-                                <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">VER MÁS</button>
+                            <div class="col-5"></div>
+                            <div class="col-1 p-4">
+                                <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">VER
+                                    MÁS</button>
                             </div>
-                            <div class="col-2"></div>
+                            <div class="col-5"></div>
                         </div>
 
                     </div>
@@ -137,13 +167,12 @@
             </div>
         </div>
         </div>
-    </section>
 
 
-    <script>
-        var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
-        myModal.show()
-    </script>
+
+
+
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

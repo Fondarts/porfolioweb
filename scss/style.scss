@@ -2,19 +2,22 @@
 
 
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+// ASSETS
+
 $coolBrown: rgb(182, 109, 14);
+$imgfondo: url(../img/islaEdicion.png)
 
 
-
-
-
-:root{
---bs-offcanvas-width: 1000vw !important
+:root {
+--bs-offcanvas-width: 1000vw;
 }
 
-h5 {
-color: rgb(0, 255, 234);
-}
 
 .canvasWidth {
 width: 3000px ;
@@ -22,30 +25,20 @@ width: 3000px ;
 }
 
 .modal-body {
-background-image: url(../img/islaEdicion.png);
+background-image: $imgfondo;
 
 }
 
-.modal {
-    background-image: url(../img/islaEdicion.png);
-
-
-}
 
 .contacto {
     background-color: black;
-
-    h3 {
-        color: yellow;
-        font-weight: bold;
-
-    }
-
-    
+ 
 
 }
 
-.bodyprincipal{
+
+
+/*.bodyprincipal{
 
     .divPrincipal {
         background-color: black;
@@ -57,7 +50,7 @@ background-image: url(../img/islaEdicion.png);
             height: 100vh;    
             grid-area: menu;
             background: $coolBrown;
-            color: white;
+            color: rgb(250, 8, 230);
             width: 52px;
             display: flex;
             flex-direction: column;
@@ -79,8 +72,7 @@ background-image: url(../img/islaEdicion.png);
                 .icon {
                     width: 30px;
                     height: 30px;
-
-                    
+                  
                 }
 
                 .icon:hover {
@@ -90,15 +82,24 @@ background-image: url(../img/islaEdicion.png);
 
             }
                 
-
+*/
 
 
 
     footer {
-        grid-area: footer;
-        position: sticky;
-        background-color: $coolBrown;
-        /* height: 25px; */
+                 grid-area: footer;
+                 position: sticky;
+                 background-color: $coolBrown;
         
-    }
+
+                .texto {
+                     color: rgb(0, 0, 0);
+                     text-align: center;
+                     }
+                     
+                                        
+
+            }
 }
+
+
